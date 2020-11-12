@@ -45,5 +45,3 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * []() - 
 * []() - 
 * []() - 
-
-
