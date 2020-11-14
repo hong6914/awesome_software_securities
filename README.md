@@ -117,25 +117,23 @@ A Curated list of sites and URLs on software and securities that I hope to learn
     - [HackTheWorld - Bypasses All Antivirus so far](https://github.com/stormshadow07/HackTheWorld)
     - [Armadito core](https://github.com/armadito/armadito-av)
     - [OWASP / SecureTea-Project](https://github.com/OWASP/SecureTea-Project)
-    - :point_right:[**Antimalware-Research**](https://github.com/NtRaiseHardError/Antimalware-Research):point_left:
+    - :eyes:[**Antimalware-Research**](https://github.com/NtRaiseHardError/Antimalware-Research)
     - [apriorit / Simple-Antirootkit-SST-Unhooker](https://github.com/apriorit/Simple-Antirootkit-SST-Unhooker)
     - [Malice Plugins](https://github.com/malice-plugins)
     - [basicLibPP](https://github.com/zzy590/basicLibPP) - library for inline-hook,lock,compress etc
     - [Winpayloads](https://github.com/nccgroup/Winpayloads) - Undetectable Windows Payload Generation
     - [Ch0pin / AVIator](https://github.com/Ch0pin/AVIator) - a backdoor generator utility
 
-    - [**ClamAV**](https://github.com/Cisco-Talos/clamav-devel) - on Linux
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
+    - :eyes:[**ClamAV**](https://github.com/Cisco-Talos/clamav-devel) - on Linux
+    - [Docker ClamAV](https://github.com/openbridge/clamav)
+    - [mko-x / docker-clamav](https://github.com/mko-x/docker-clamav)
+    - [tiredofit/docker-clamav](https://github.com/tiredofit/docker-clamav) - Dockerfile to build an Clam Antivirus container image
+    - [Ansible Role: ClamAV](https://github.com/geerlingguy/ansible-role-clamav)
+    - [malice-fprot](https://github.com/malice-plugins/fprot)
+    - [docker-antivirus with ClamAV and Atomic](https://github.com/wdhif/docker-antivirus)
+    - [malice-fsecure](https://github.com/malice-plugins/fsecure)
+    - [VxSig](https://github.com/google/vxsig) - automatically generate AV byte signatures from sets of similar binaries
+    - [rordi/docker-antivirus](https://github.com/rordi/docker-antivirus) - Antivirus/Antimalware as a Microservice/Docker Container
 
 ---
 
