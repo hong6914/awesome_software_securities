@@ -526,20 +526,132 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 
 ## Assembly
 * [**LordNoteworthy/cpu-internals**](https://github.com/LordNoteworthy/cpu-internals)
-* []()
-* []()
-* []()
-* []()
+* [The Holy Book of X86](https://github.com/Captainarash/The_Holy_Book_of_X86)
+* [Null Terminated Programming 101 - x64](https://0x00sec.org/t/null-terminated-programming-101-x64/20398)
+* [x86-64 Assembly Language Programming with Ubuntu](https://open.umn.edu/opentextbooks/textbooks/733) - Open Textbook Library
+* [Intel x86_64 assembly language and pwntools dash docset](https://github.com/0xKira/pwn-dash-docset)
+* [Writing a disassembler](https://metabytezero.blogspot.com/2019/08/writing-disassembler.html)
+* [Modern x64 Assembly](https://www.youtube.com/playlist?list=PLKK11Ligqitg9MOX3-0tFT1Rmh3uJp7kA)
+* [How x86_64 addresses memory via a single MOV](https://blog.yossarian.net/2020/06/13/How-x86_64-addresses-memory)
+* [Interesting Behaviors in x86 Instructions](https://narly.me/posts/interesting-behaviors-in-x86/)
+* [acru3l's blog](https://acru3l.github.io/)
+* [Latches inside: Reverse-engineering the Intel 8086's instruction register](http://www.righto.com/2020/08/latches-inside-reverse-engineering.html)
+* :eyes:[**Reversing**](https://artik.blue/reversing)
+    - Reversing 32bit and 64bit binaries using Radare2-7
+        - [1 intro](https://artik.blue/reversing-radare2-1)
+        - [2 conditionals](https://artik.blue/reversing-radare2-2)
+        - [3 funcs, cases and loops](https://artik.blue/reversing-radare-3)
+        - [4 arrays and strings](https://artik.blue/reversing-radare-4)
+        - [5 var types and casting](https://artik.blue/reversing-radare-5)
+        - [6 2d arrays and structs](https://artik.blue/reversing-radare-6)
+        - [7 struct arrays, r2pm and patching](https://artik.blue/reversing-radare-7)
+* [Tutorial of ARM Stack Overflow Exploit – Defeating ASLR with ret2plt](http://feedproxy.google.com/~r/fortinet/blog/threat-research/~3/i8cpJZFoPNk/tutorial-of-arm-stack-overflow-exploit-defeating-aslr-with-ret2plt)
+
+* [**Miasm - reverse engineering framework**](https://github.com/cea-sec/miasm)
+* [RetDec](https://github.com/avast/retdec) - AVAST open-source machine-code decompiler based on LLVM
+* [bddisasm](https://github.com/bitdefender/bddisasm) - lightweight x86/x64 disassembler from BitDefender
+* [CryptoShark](https://github.com/frida/cryptoshark) - Frida's code tracer based on Dynamic Recompilation
 
 ---
 
 
 ## VM
+* :eyes:[**Wenzel/awesome-virtualization**](https://github.com/Wenzel/awesome-virtualization)
+* [**Nody´s blog**](https://blog.nody.cc/)
+    - [Container Breakouts – Part 1: Access to root directory of the Host](https://blog.nody.cc/posts/container-breakouts-part1/)
+
+* [QEMU internals](https://lugatgt.org/content/qemu_internals/downloads/slides.pdf)
+* [Emulating Hypervisors: a Samsung RKP case study](https://census-labs.com/news/2020/07/22/emulating-hypervisors-a-samsung-rkp-case-study-offensivecon-2020/) - OffensiveCon 2020
+* Hypervisor From Scratch
+    - [Part 1: Basic Concepts & Configure Environment](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
+    - [Part 2: Entering VMX Operation](https://rayanfam.com/topics/hypervisor-from-scratch-part-2/)
+    - [Part 3: Setting up Our First Virtual Machine](https://rayanfam.com/topics/hypervisor-from-scratch-part-3/)
+    - [Part 4: Address Translation Using EPT](https://rayanfam.com/topics/hypervisor-from-scratch-part-4/)
+    - [Part 5: Setting up VMCS & Running Guest Code](https://rayanfam.com/topics/hypervisor-from-scratch-part-5/)
+    - [Part 6: Virtualizing An Already Running System](https://rayanfam.com/topics/hypervisor-from-scratch-part-6/)
+    - [Part 7: EPT & Page-Level Monitoring Features](https://rayanfam.com/topics/hypervisor-from-scratch-part-7/)
+    - [Part 8: How To Do Magic With Hypervisor!](https://rayanfam.com/topics/hypervisor-from-scratch-part-8/)
+* [Compromising virtualization without attacking the hypervisor](https://theori.io/research/compromising-dom0-in-xen/)
+* [MindShaRE: How to “Just Emulate It With QEMU”](https://www.thezdi.com/blog/2020/5/27/mindshare-how-to-just-emulate-it-with-qemu)
+* [Introduction To Virtualization](https://yuvaly0.github.io/2020/06/19/introduction-to-virtualization.html)
+
+* [Microsoft Hyper-V Type Confusion leading to Arbitrary Memory Dereference](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-003/)
+* :eyes: **Alex Ionescu - Writing a Hyper-V “Bridge” for Fuzzing**
+    - [Part 1: WDF](https://alex-ionescu.com/?p=377)
+    - [Part 2 : Hypercalls & MDLs](https://alex-ionescu.com/?p=471)
+* [Hyper-V #0x0 - Research setup](https://foxhex0ne.blogspot.com/2020/05/hyper-v-0x0-research-setup.html)
+* [Hyper-V #0x1 - Hypercalls part 1](https://foxhex0ne.blogspot.com/2020/05/hyper-v-0x1-hypercalls-part-1.html)
+* Patchguard: Detection of Hypervisor Based Instrospection
+    - [P1](https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p1/)
+    - [P2](https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p2/)
+* [Hyper-V memory internals. EXO partition memory access](https://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html)
+* [How to Manage Hyper-V VM Checkpoints with PowerShell](https://www.thomasmaurer.ch/2020/07/how-to-manage-hyper-v-vm-checkpoints-with-powershell/)
+* [vxunderground - Weaponizing Windows Virtualization](https://vxug.fakedoma.in/papers/VXUG/Exclusive/WeaponizingWindowsVirtualization.pdf)
+
+*Tools*
+* [intel/kernel-fuzzer-for-xen-project](https://github.com/intel/kernel-fuzzer-for-xen-project) - VMI Kernel Fuzzer for Xen Project: VM forking, VMI & AFL integration demo
+* [Automated Malware Analysis](https://buff.ly/38XM55X) - Analyzing Azorult's Anti-Analysis Tricks with Joe Sandbox Hypervisor
+* [**hvpp: lightweight Intel x64/VT-x hypervisor in C++ on virtualization of already running OS**](https://github.com/wbenny/hvpp)
+* [virt-manager](https://github.com/virt-manager/virt-manager) - GUI tool to manage virtual machines via libvirt
+* [**Bitdefender Napoca Hypervisor**](https://github.com/napocahv/napoca)
+* [fofapro/vulfocus](https://github.com/fofapro/vulfocus)
+* [**HiddenVM — Use any desktop OS without leaving a trace**](https://github.com/aforensics/HiddenVM)
+* [Hyper-V repos](https://github.com/gerhart01)
+* [qemu-vm-escape](https://github.com/0xKira/qemu-vm-escape)
+* [**Aleph Research**](https://github.com/alephsecurity)
+    -   xnu-qemu-arm64, xnu-qemu-arm64-tools, abootool
+* [hvmi - Hypervisor Memory Introspection](https://github.com/hvmi/hvmi)
+* [rustyvisor](https://github.com/iankronquist/rustyvisor) - A hypervisor written in Rust
 
 ---
 
 
 ## Web
+* [**Unicode Security Guide**](http://websec.github.io/unicode-security-guide)
+* [Fuzzing sockets, part 1: FTP servers - GitHub Security Lab](https://securitylab.github.com/research/fuzzing-sockets-FTP)
+* [List of Top Ten Web Hacking Techniques](https://github.com/irsdl/top10webseclist)
+
+* [Bypassing Content Security Policy (CSP)](https://blog.deteact.com/csp-bypass/)
+* [**Content-Security-Policy (CSP) Bypass Techniques**](https://medium.com/@bhaveshthakur2015/content-security-policy-csp-bypass-techniques-e3fa475bfe5d)
+* [How To Bypass CSP By Hiding JavaScript In A PNG Image](https://www.secjuice.com/hiding-javascript-in-png-csp-bypass/)
+* [AST Injection, Prototype Pollution to RCE](https://blog.p6.is/AST-Injection/)
+* [JSON Web Token Validation Bypass in Auth0 Authentication API](https://insomniasec.com/blog/auth0-jwt-validation-bypass)
+* [A Deep Dive On The Most Critical API Vulnerability — BOLA (Broken Object Level Authorization)](https://medium.com/@inonst/a-deep-dive-on-the-most-critical-api-vulnerability-bola-1342224ec3f2)
+* [**Building a Cyber Security Lab**](https://medium.com/@robertscocca/building-a-cyber-security-lab-4874bddd056b)
+* [Patrik Fehrenbach's blogs](https://blog.it-securityguard.com/)
+
+*Tools*
+* [WARF - WebAssembly Runtimes Fuzzing project](https://github.com/pventuzelo/wasm_runtimes_fuzzing)
+* [random-robbie/ssrf-finder](https://github.com/random-robbie/ssrf-finder) - find SSRF bugs
+* [uknowsec/SharpSQLDump](https://github.com/uknowsec/SharpSQLDump) - get DB info in pentests
+* [crowdsecurity/crowdsec](https://github.com/crowdsecurity/crowdsec/) - dockerized agent on abnormal behavior detection
+* [guardicore/monkey](https://github.com/guardicore/monkey) - An automated pentest tool
+* [**netzob - Protocol Reverse Engineering, Modeling and Fuzzing**](https://github.com/netzob/netzob)
+* [ParamSpider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives
+* [**31-days-of-API-Security-Tips**](https://github.com/smodnix/31-days-of-API-Security-Tips)
+* [OWASP/Amass: In-depth DNS Enumeration and Network Mapping](https://github.com/OWASP/Amass)
+* [Awesome SSL/TLS Hacks](https://github.com/lenny233/awesome-tls-hacks)
+* [**Manisso/fsociety**](https://github.com/Manisso/fsociety) - lots of pentest tools
+* [**dloss/python-pentest-tools**](https://github.com/dloss/python-pentest-tools)
+* [dref - DNS Rebinding Exploitation Framework in javascript](https://labs.f-secure.com/tools/dref/)
+* [epi052/feroxbuster](https://github.com/epi052/feroxbuster) - A fast/simple recursive content discovery tool in Rust
+* [**s0md3v / ReconDog**](https://github.com/s0md3v/ReconDog) - Reconnaissance Swiss Army Knife
+* [s0md3v / Bolt CSRF Scanner](https://github.com/s0md3v/Bolt)
+
+* []()
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+
+
 
 ---
 
