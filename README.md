@@ -140,15 +140,326 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 
 ## Fuzzing
 
+*Concerences*
+    - [FuzzCon Europe 2020](https://www.youtube.com/playlist?list=PLI0R_0_8-TV4JArtdlgnuPtgXALZxAYqu)
+    - [Fuzz Week 2020](https://gamozolabs.github.io/2020/07/12/fuzz_week_2020.html)
+
+* :eyes:[**SecurityLab - research**](https://securitylab.github.com/research)
+    - [Fuzzing software: common challenges and potential solutions (Part 1)](https://securitylab.github.com/research/fuzzing-challenges-solutions-1)
+    - [Fuzzing software: advanced tricks (Part 2)](https://securitylab.github.com/research/fuzzing-software-2)
+* :eyes:[**Fuzz publications**](https://mboehme.github.io/)
+    - [Boosting Fuzzer Efficiency: An Information Theoretic Perspective](https://mboehme.github.io/paper/FSE20.Entropy.pdf)
+* :eyes:[**Chair for Systems Security**](https://github.com/RUB-SysSec?tab=repositories)
+* :eyes:[**SOLA - University of Stuttgart, Germany**](http://www.software-lab.org/publications.html)
+* :eyes:[**Gamozo Labs Blog**](https://gamozolabs.github.io/)
+    - [mesos](https://github.com/gamozolabs)
+* :eyes:[**Long Lu**](https://www.longlu.org/)
+    - [Finding Bugs Using Your Own Code: Detecting Functionally-similar yet Inconsistent Code](https://www.longlu.org/publication/fics/)
+* :eyes:[**Academic papers related to fuzzing, binary analysis, and exploit dev**](https://github.com/0xricksanchez/paper_collection)
+
+*Fuzzing Techniques*
+* [Fuzzing Image Parsing in Windows, Part One: Color Profiles](https://www.fireeye.com/blog/threat-research/2020/09/fuzzing-image-parsing-in-windows-color-profiles.html)
+* [Microsoft onefuzz](https://github.com/microsoft/onefuzz) - seems more an ad selling on Azure than showing a high-performance fuzz engine
+* [Fuzzing a simple C program using WinAFL on windows](https://hardik05.wordpress.com/2020/09/06/fuzzing-with-winafl-fuzzing-a-simple-c-program-using-winafl-on-windows/)
+* [Barbervisor: Journey developing a snapshot fuzzer with Intel VT-x](https://blogs.cisco.com/security/talos/barbervisor)
+* [Fuzzing afdko with AFL in 32bit Mode](https://hardik05.wordpress.com/2020/08/08/fuzzing-afdko-with-afl-in-32bit-mode/)
+* [Address Sanitizer for Windows adds support on x64 and checked build](https://devblogs.microsoft.com/cppblog/asan-for-windows-x64-and-debug-build-support/)
+* [Grammar based fuzzing PDFs with Domato](https://symeonp.github.io/2020/04/18/grammar-based-fuzzing.html)
+* [Pwning Adobe Reader Multiple Times with Malformed Strings](https://conference.hitb.org/hitblockdown/materials/D1%20-%20Pwning%20Adobe%20Reader%20Multiple%20Times%20with%20Malformed%20Strings%20-%20Ke%20Liu.pdf)
+* [Creating a fuzzing harness for FoxitReader 9.7 ConvertToPDF Function](https://christopher-vella.com/2020/02/28/creating-a-fuzzing-harness-for-foxitreader-9-7-converttopdf-function/)
+* [PANGOLIN: Incremental Hybrid Fuzzing with Polyhedral Path Abstraction](https://qingkaishi.github.io/public_pdfs/SP2020.pdf)
+* [Using Echidna to test a smart contract library](https://blog.trailofbits.com/2020/08/17/using-echidna-to-test-a-smart-contract-library/)
+* [BigFuzz: Efficient Fuzz Testing for Data Analytics Using Framework Abstraction](https://rohan.padhye.org/files/bigfuzz-ase20.pdf)
+* [Fuzzing binaries with LLVM's libFuzzer and rev.ng](https://rev.ng/blog/fuzzing/post.html)
+* Fuzzing Like A Caveman
+    - [part 1](https://h0mbre.github.io/Fuzzing-Like-A-Caveman/)
+    - [part 2: Improving Performance](https://h0mbre.github.io/Fuzzing-Like-a-Caveman-2/)
+    - [part 3: Trying to Somewhat Understand The Importance Code Coverage](https://h0mbre.github.io/Fuzzing-Like-A-Caveman-3/)
+    - [part 4: Snapshot/Code Coverage Fuzzer!](https://h0mbre.github.io/Fuzzing-Like-A-Caveman-4/)
+* :eyes:[**On Measuring and Visualizing Fuzzer Performance**](https://hexgolems.com/2020/08/on-measuring-and-visualizing-fuzzer-performance/)
+* Resmack
+    - [Part 1: Grammar Fuzzing Thoughts](https://narly.me/posts/resmack-grammar-fuzz-thoughts-1/)
+    - [Part 2: Full Fuzzer Detour](https://narly.me/posts/resmack-detour-full-fuzzer-experiment/)
+* [Symbolic execution with SYMCC: Don’t interpret, compile!](http://www.s3.eurecom.fr/docs/usenixsec20_symcc.pdf)
+
+*Fuzz on Windows*
+* [Debug Information Validation for Optimized Code](https://helloqirun.github.io/papers/pldi20_yuanbo1.pdf)
+* [BinRec: Dynamic Binary Lifting and Recompilation](https://download.vusec.net/papers/binrec_eurosys20.pdf)
+* [Binary Rewriting without Control Flow Recovery](https://www.comp.nus.edu.sg/~abhik/pdf/PLDI20.pdf)
+* [Evading Deepfake-Image Detectors with White- and Black-Box Attacks](https://arxiv.org/pdf/2004.00622.pdf)
+* [ret2spec: Speculative Execution Using Return Stack Buffers](https://christian-rossow.de/publications/ret2spec-ccs2018.pdf)
+* [Designing New Operating Primitives to Improve Fuzzing Performance](https://acmccs.github.io/papers/p2313-xuA.pdf)
+* [USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation](https://nebelwelt.net/publications/files/20SEC3.pdf)
+* :eyes:[**FuzzGen: Automatic Fuzzer Generation**](https://github.com/HexHive/FuzzGen)
+* :eyes:[**FireEye: malware unpacking based on Bochs emulation**](https://www.fireeye.com/blog/threat-research/2020/04/code-grafting-to-unpack-malware-in-emulation.html)
+
+*Fuzz on Linux*
+* [Use Fault Injection to Turn Data Transfers into Arbitrary Execution](https://raelize.com/upload/using-fault-injection-for-turning-data-transfers-into-arbitrary-execution-poc2019-slides-1.0.pdf)
+* [Agamotto: Accelerate Kernel Driver Fuzzing with Lightweight VM Checkpoints](https://github.com/securesystemslab/agamotto)
+
+*Web related*
+* [Fuzzing TLS certificates from their ASN.1 grammar](https://blog.doyensec.com/2020/05/14/asn1fuzz.html)
+* [Fuzzing Firefox with WebIDL](https://hacks.mozilla.org/2020/04/fuzzing-with-webidl/)
+
+* [Speeding up fuzzing rust with shared initialization](https://da-data.blogspot.com/2020/05/speeding-up-fuzzing-rust-with-shared.html)
+
+*Tools*
+* :eyes:[**AFL++**](https://github.com/antonio-morales/AFLplusplus)
+* [AFLNet: A Greybox Fuzzer for Network Protocols](https://github.com/aflnet/aflnet)
+* [Magma - a Fuzzer evaluator](https://hexhive.epfl.ch/magma/)
+* [Nautilus - A Grammar Based Feedback Fuzzer](https://www.kitploit.com/2020/08/nautilus-grammar-based-feedback-fuzzer.html)
+* [Driller: augmenting AFL with symbolic execution](https://github.com/shellphish/driller)
+* [shellphish-qemu](https://github.com/shellphish/shellphish-qemu) - A pip wrapper around ridiculous amount of qemu forks
+* :eyes:[**FLUFFI - A distributed evolutionary binary fuzzer for pentesters**](https://github.com/siemens/fluffi)
+    - [siemens/drace](https://github.com/siemens/drace) - DynamoRIO based windows binary instrumentor
+* :eyes:[**Sienna Locomotive fuzz for Windows**](https://github.com/trailofbits/sienna-locomotive)
+* Google Project Zero
+    - [TinyInst](https://github.com/googleprojectzero/TinyInst) - lightweight dynamic instrumentation library
+    - [DrSancov](https://github.com/googleprojectzero/DrSancov) - DynamoRIO plugin to get ASAN and SanitizerCoverage compatible output for closed-source executables
+    - [SkCodecFuzzer](https://github.com/googleprojectzero/SkCodecFuzzer) - Android Skia Image Fuzzing Harness
+* :eyes:[**Gum - cross-platform instrumentation and introspection library in C**](https://github.com/frida/frida-gum)
+* [PeAfl](https://ezqelusia.blogspot.com/2020/06/some-dos-bugs-while-processing.html) - Some DOS bugs while processing Microsoft LNK files
+* [**FuzzExMachina**](https://github.com/fgsect/fexm)
+    - [blackhat 21018 paper](https://i.blackhat.com/us-18/Thu-August-9/us-18-Ulitzsch-Follow-The-White-Rabbit-Simplifying-Fuzz-Testing-Using-FuzzExMachina.pdf)
+* [**nautilus: coverage guided, grammar based fuzzer**](https://github.com/nautilus-fuzz/nautilus)
+* [IntelLabs/kAFL](https://github.com/IntelLabs/kAFL) - Intel's implementation of AFL based on Intel PT/VT
+* [vFuzz](https://github.com/guidovranken/vfuzz) - by Guido Vranken
+
+* [**QBDI**](https://github.com/QBDI) - dynamic instrumentation based on LLVM
+* [RetroWrite](https://www.youtube.com/watch?v=VdT_0jPr00U) - Statically Instrumenting COTS Binaries for Fuzzing and Sanitization
+    - [github](https://github.com/HexHive/retrowrite/)
+* [The fastest Intel-PT decoder for fuzzing](https://github.com/nyx-fuzz/libxdc)
+* [kabeor/Micro-Unicorn-Engine-API-Documentation](https://github.com/kabeor/Micro-Unicorn-Engine-API-Documentation)
+* [MemLock: Memory Usage Guided Fuzzing](https://github.com/wcventure/MemLock-Fuzz)
+* [Fuzzing VIM with AFL++](https://www.inputzero.io/2020/03/fuzzing-vim.html)
+* [AFLNet](https://github.com/aflnet/aflnet) - fuzz networking protocols
+* [Learn how to combine libprotobuf-mutator with libfuzzer & AFL++](https://github.com/bruce30262/libprotobuf-mutator_fuzzing_learning)
+* [**simple fuzzers**](https://github.com/debasishm89)
+    - [author's site](http://www.debasish.in/)
+* [Facebook/infer](https://github.com/facebook/infer) - static code analyzer, supports Java, C, C++, Objective-C
+* [vanhauser-thc/libfuzzer-coverage](https://github.com/vanhauser-thc/libfuzzer-cov) - nice coverage HTML on libfuzzer runs
+
+*self-study*
+* [Microsoft: A brief introduction to fuzzing](https://www.microsoft.com/en-us/research/blog/a-brief-introduction-to-fuzzing-and-why-its-an-important-tool-for-developers/)
+* [Fuzzing with AFL series](https://www.youtube.com/playlist?list=PLHGgqcJIME5koI76OlBdBj7sCid1hbjf-)
+* [EkoParty - Advanced Fuzzing Workshop](https://github.com/antonio-morales/EkoParty_Advanced_Fuzzing_Workshop)
+
+
 ---
 
 
 ## Windows
 
+* :eyes:[**Windows Exploit Development**](https://github.com/FULLSHADE/WindowsExploitationResources)
+* [**The Human Machine Interface**](https://h0mbre.github.io/)
+    - [driver CVEs & exploits](https://h0mbre.github.io/)
+* [**NCC group**](https://research.nccgroup.com/)
+* [**PenTestPartner**](https://www.pentestpartners.com/security-blog/) - security blogs
+* [**RACK911 Labs**](https://www.rack911labs.com/research/exploiting-almost-every-antivirus-software/) - Exploiting (Almost) Every Antivirus Software
+* :eyes:[**F-Secure LABS**](https://labs.f-secure.com/blog/)
+    - [Bypassing Windows Defender Runtime Scanning](https://labs.f-secure.com/blog/bypassing-windows-defender-runtime-scanning/)
+    - [What the Fuzz](https://labs.f-secure.com/blog/what-the-fuzz/)
+    - [Ventures into Hyper-V - Fuzzing hypercalls](https://labs.f-secure.com/blog/ventures-into-hyper-v-part-1-fuzzing-hypercalls/)
+    - [Debugging Released Xamarin Android Applications](https://labs.f-secure.com/blog/debugging-released-xamarin-android-applications/)
+    - [Bypassing Memory Scanners with Cobalt Strike and Gargoyle](https://labs.f-secure.com/blog/experimenting-bypassing-memory-scanners-with-cobalt-strike-and-gargoyle/)
+* [**Detection in Depth - SpecterOps Team**](https://posts.specterops.io/detection-in-depth-a2392b3a7e94)
+
+* [Exploiting Feedback Hub in Windows 10](http://decoder.cloud/2020/04/28/exploiting-feedback-hub-in-windows-10/)
+* [**PS C:\Users\itm4n> _ blogs**](https://itm4n.github.io/)
+* [**n4r1b/re$ blogs**](https://www.n4r1b.com/posts/)
+* :eyes:[**Sina & Shahriar's Blog**](https://rayanfam.com/topics/category/windows/)
+* [**wbenny**](https://github.com/wbenny) - GitHub
+
+*kernel*
+* :eyes:[**awesome-windows-kernel-security-development**](https://github.com/ExpLife0011/awesome-windows-kernel-security-development)
+* [How to use Trend Micro's Rootkit Remover to Install a Rootkit](https://d4stiny.github.io/How-to-use-Trend-Micro-Rootkit-Remover-to-Install-a-Rootkit/)
+* [Study of IOMMU (VT-d) and Kernel DMA Protection on Intel Processors](https://standa-note.blogspot.com/2020/05/introductory-study-of-iommu-vt-d-and.html)
+* :eyes:[**Low level pleasure blogs**](https://repnz.github.io/posts/)
+* [**Windows internals blogs**](https://windows-internals.com/pages/internals-blog/)
+* [Basic Windows Kernel Programming](https://github.com/raminfp/basicwindowskernelprogramming)
+* [Bugs on the Windshield: Fuzzing the Windows Kernel](https://research.checkpoint.com/2020/bugs-on-the-windshield-fuzzing-the-windows-kernel/)
+* [**Kernel debugging in seconds with Vagrant**](https://secret.club/2020/04/10/kernel_debugging_in_seconds.html)
+* [**Book Review: Windows Kernel Programming and Creating Drivers**](https://truneski.github.io/post/2020/04/03/book-review-windows-kernel-programming-and-creating-drivers-of-select-exercises/)
+* [Methodology for Static Reverse Engineering of Windows Kernel Drivers](https://posts.specterops.io/methodology-for-static-reverse-engineering-of-windows-kernel-drivers-3115b2efed83)
+* [A Defender’s Guide For Rootkit Detection: Episode 1 – Kernel Drivers](https://labs.jumpsec.com/2020/04/20/a-defenders-guide-for-rootkit-detection-episode-1-kernel-drivers/)
+* [Removing Kernel Callbacks Using Signed Drivers](https://br-sn.github.io/Removing-Kernel-Callbacks-Using-Signed-Drivers/)
+* [SassyKitdi: Kernel Mode TCP Sockets + LSASS Dump](https://zerosum0x0.blogspot.com/2020/08/sassykitdi-kernel-mode-tcp-sockets.html)
+* [Writing Windows File System Drivers is Hard](https://www.tiraniddo.dev/2020/05/writing-windows-file-system-drivers-is.html)
+* [Windows Projected File System - NTFS symlink mitigation bypass](https://docs.google.com/document/d/13ZGDSa4eLRA-Uyhxi52t6U_zb2XXJcBEsEzNUcj7V2o/edit)
+* [**ETW tracing handles in kernel**](https://redplait.blogspot.com/2020/07/etw-tracing-handles-in-kernel.html)
+* [kernel-SegmentHeap-Aligned-Chunk-Confusion](https://github.com/synacktiv/Windows-kernel-SegmentHeap-Aligned-Chunk-Confusion) - POC
+* [**Kernel exploitation: weaponizing CVE-2020-17382 MSI Ambient Link driver**](https://www.matteomalvica.com/blog/2020/09/24/weaponizing-cve-2020-17382/)
+
+* [Driver Store Explorer](https://github.com/lostindark/DriverStoreExplorer)
+* [zodiacon/ProcMonXv2](https://github.com/zodiacon/ProcMonXv2) - Process Monitor based on ETW
+* [can1357/NtLua](https://github.com/can1357/NtLua) - running Lua Coroutines inside Windows kernel
+
+*user space*
+* :eyes:[**Windows Hot Patching Mechanism Explained**](https://dev.to/pelock/windows-hot-patching-mechanism-explained-2m1f)
+* [**Solving Uninitialized Stack Memory on Windows**](https://msrc-blog.microsoft.com/2020/05/13/solving-uninitialized-stack-memory-on-windows/)
+* [Netwalker Fileless Ransomware Injected via Reflective Loading](https://blog.trendmicro.com/trendlabs-security-intelligence/netwalker-fileless-ransomware-injected-via-reflective-loading/)
+* [KMS-activator](https://github.com/CHEF-KOCH/KMS-activator) - on activating Windows
+* [Microsoft videos on software security](https://www.youtube.com/channel/UC4s3tv0Qq_OSUBfR735Jc6A)
+* [Masquerading Windows processes like a Double Agent](https://sensepost.com/blog/2020/masquerading-windows-processes-like-a-doubleagent./)
+* [Defending Windows Domain Against Mimikatz Attacks](http://woshub.com/defending-windows-domain-against-mimikatz-attacks/)
+* Understanding and Abusing Process Tokens
+    - [Part I](https://medium.com/@seemant.bisht24/understanding-and-abusing-process-tokens-part-i-ee51671f2cfa)
+    - [Part II](https://medium.com/@seemant.bisht24/understanding-and-abusing-access-tokens-part-ii-b9069f432962)
+* [Retrieving ntdll Syscall Stubs from Disk at Run-time](https://ired.team/offensive-security/defense-evasion/retrieving-ntdll-syscall-stubs-at-run-time)
+* [Demystifying the “SVCHOST.EXE” Process and Its Command Line Options](https://medium.com/@nasbench/demystifying-the-svchost-exe-process-and-its-command-line-options-508e9114e747)
+* [journey into object manager executive handles](https://ntamonsec.blogspot.com/2020/06/journey-into-object-manager-executive-handles.html)
+
+*reverse*
+* [**Using Frida For Windows Reverse Engineering**](https://darungrim.com/research/2020-06-17-using-frida-for-windows-reverse-engineering.html)
+* [**Bypassing World of Warcraft's Read-Only Code Protection (crc32)**](https://ferib.dev/blog.php?l=post%2FBypassing_World_of_Warcraft_Crc32_Integrity_Checks)
+* **Process Injection**
+    - [Part I](https://sevrosecurity.com/2020/04/08/process-injection-part-1-createremotethread/) - CreateRemoteThread()
+    - [Part II](https://sevrosecurity.com/2020/04/13/process-injection-part-2-queueuserapc/) - QueueUserAPC()
+* [APC Series: User APC Internals](https://repnz.github.io/posts/apc/kernel-user-apc-api/)
+* [In-Memory shellcode decoding to evade AVs/EDRs](https://shells.systems/in-memory-shellcode-decoding-to-evade-avs/)
+* [**Zero2Automated Advanced Malware RE Course**](https://medium.com/@ReversingMagic/zero2automated-advanced-malware-re-course-custom-sample-analysis-40e14ddca78d) — Custom Sample Analysis
+* Qiling For Malware Analysis
+    - [Part 1](https://n1ght-w0lf.github.io/tutorials/qiling-for-malware-analysis-part-1/)
+    - [Part 2](https://n1ght-w0lf.github.io/tutorials/qiling-for-malware-analysis-part-2/)
+* [Crimson RAT Malware Analysis](https://malwr-analysis.com/2020/07/24/crimson-rat-malware-analysis/)
+* [Forensic Investigation: Windows Registry Analysis](https://www.hackingarticles.in/forensic-investigation-windows-registry-analysis/)
+* [**VMPDump**](https://github.com/0xnobody/vmpdump) - dynamically unpacking VMP shell
+* [CVE-2020-1015 Analysis](https://0xeb-bp.github.io/blog/2020/05/12/cve-2020-1015-analysis.html)
+* [**privilege escalations**](https://medium.com/bugbountywriteup/privilege-escalation-in-windows-380bee3a2842?source=rss----7b722bfd1b8d---4)
+* [Turning the Pages: Introduction to Memory Paging on Windows 10 x64](https://connormcgarr.github.io/paging/)
+* An old enemy – Diving into QBot
+    - [part 1](https://malwareandstuff.com/an-old-enemy-diving-into-qbot-part-1/)
+    - [part 2](https://malwareandstuff.com/an-old-enemy-diving-into-qbot-part-2/)
+    - [part 3](https://malwareandstuff.com/an-old-enemy-diving-into-qbot-part-3/)
+* [Universally Evading Sysmon and ETW](https://blog.dylan.codes/evading-sysmon-and-windows-event-logging/)
+* [Windows 10 x64 ESTROBJ STROBJ](https://versprite.com/blog/security-research/reverse-engineering-undocumented-structures/) - undocumented structures
+* [Process Hollowing detection](https://posts.specterops.io/engineering-process-injection-detections-part-1-research-951e96ad3c85)
+* [MSRC - Memory Tagging](https://github.com/microsoft/MSRC-Security-Research/blob/master/papers/2020/Security%20analysis%20of%20memory%20tagging.pdf)
+* [Using Syscalls to Inject Shellcode on Windows](https://www.solomonsklash.io/syscalls-for-shellcode-injection.html)
+* [Anti-Debugging Technique based on Memory Protection](https://blog.rootshell.be/2020/06/04/sans-isc-anti-debugging-technique-based-on-memory-protection/)
+* [Antivirus Evasion with Python](https://www.youtube.com/watch?v=zRkrx3ikc0g&feature=youtu.be)
+* [Hardware breakpoints and exceptions on Windows](https://ling.re/hardware-breakpoints/)
+* [How Do Attackers Use LOLBins In Fileless Attacks](https://www.sentinelone.com/blog/how-do-attackers-use-lolbins-in-fileless-attacks/)
+* [**Using Frida For Windows Reverse Engineering**](https://darungrim.com/research/2020-06-17-using-frida-for-windows-reverse-engineering.html)
+* [**Advanced Windows Malware Analysis - Acquiring Memory Artifacts**](https://darungrim.com/research/2020-07-10-windows-malware-analysis-process-artifacts.html)
+* [WoW64 internals](https://wbenny.github.io/2018/11/04/wow64-internals.html)
+* [WOW64 Subsystem Internals and Hooking Techniques](https://www.fireeye.com/blog/threat-research/2020/11/wow64-subsystem-internals-and-hooking-techniques.html)
+* [**Q4n**](https://github.com/Q4n) - GitHub
+* [Abusing COM & DCOM objects](https://packetstormsecurity.com/files/158974)
+
+*Active Directory*
+* [Group Policies Going Rogue](https://www.cyberark.com/resources/threat-research-blog/group-policies-going-rogue)
+* [Fundamentals of Active Directory Trust Relationships](https://qomplx.com/qomplx-knowledge-fundamentals-of-active-directory-trust-relationships/?utm_content=132798045&utm_medium=social&utm_source=twitter&hss_channel=tw-936614477339926531)
+* [Blackhat2020 - Detecting Access Token Manipulation](https://i.blackhat.com/USA-20/Thursday/us-20-Burgess-Detecting-Access-Token-Manipulation.pdf)
+* [ADCollector](https://www.kitploit.com/2020/05/adcollector-lightweight-tool-to-quickly.html) - Lightweight Tool To Extract Info From The Active Directory
+* [Windows NT File System Internals: A Developer's Guide](https://balbinochandra.firebaseapp.com/windows-nt-file-system-internals-a-developer-s-guide-1565922492.pdf)
+
+*.NET*
+* [Red Team Tactics: Utilizing Syscalls in C# - Prerequisite Knowledge](https://jhalon.github.io/utilizing-syscalls-in-csharp-1/)
+* [Detecting and Advancing In-Memory .NET Tradecraft](https://www.mdsec.co.uk/2020/06/detecting-and-advancing-in-memory-net-tradecraft/)
+* [Hiding your .NET - COMPlus_ETWEnabled](https://blog.xpnsec.com/hiding-your-dotnet-complus-etwenabled/)
+* [Evil-Winrm : Winrm Pentesting Framework](https://www.hackingarticles.in/evil-winrm-winrm-pentesting-framework/)
+* [**Emulating Covert Operations: Dynamic Invocation (Avoid PInvoke & API Hooks**](https://thewover.github.io/Dynamic-Invoke/)
+* [.NET Memory Performance Analysis](https://github.com/Maoni0/mem-doc/blob/master/doc/.NETMemoryPerformanceAnalysis.md)
+
+* [Advanced Debugging .NET](https://havitknowledgebase.files.wordpress.com/2016/02/2016-02-showit-sk-advanced-debugging-net.pdf)
+
+* :eyes:[**dnpatch**](https://github.com/ioncodes/dnpatch)
+* [guibacellar/DNCI: DNCI](https://github.com/guibacellar/DNCI) - .Net Code Injector
+* [Windows C# RPC Clients](https://github.com/tyranid/WindowsRpcClients)
+* [Athena - security investigation and info collection](https://labs.f-secure.com/tools/athena/)
+* [SharpSploit - .NET post-exploitation library](https://github.com/cobbr/SharpSploit)
+    - [SharpSploit: Bypassing API Hooks via DInvoke and Manual Mapping](https://vimeo.com/406589341)
+* [**cobbr/Covenant**](https://github.com/cobbr/Covenant) - a collaborative .NET C2 framework for red teamers
+
+*debugging*
+* :eyes:[**X64Dbg**](https://www.kitploit.com/2020/07/x64dbg-open-source-x64x32-debugger-for.html)
+* [**HyperDbg**](https://github.com/HyperDbg/HyperDbg) - supports both kernel and user spaces
+* :eyes:[**ioncodes**](https://github.com/ioncodes)
+    - [dbgmon - parse all messages sent to DbgPrint without process interaction](https://github.com/ioncodes/dbgmon)
+    - [WinAPI C++ wrapper](https://github.com/ioncodes/wrapper)
+    - [shark - Turn off PatchGuard in realtime on win7 (7600) ~ win10 (18950)](https://github.com/ioncodes/Shark)
+    - [Header-only library that assists you with exploiting the Windows kernel](https://github.com/ioncodes/kernel)
+    - []()
+* [WinDbg: setting up a cross-VM debugging, tips](https://syscall.eu/blog/2020/03/29/windbg-vm/)
+* [Windows APIs list in Json](https://github.com/ohjeongwook/windows_sdk_data) - helps on fuzzing or windbg plugin development
+* [Windbg Tricks](https://narly.me/posts/windbg-tricks/)
+* [Windbg Tricks - Module Relocation](https://narly.me/posts/windbg-tricks-module-relocation/)
+
+* [WinDbgTool - Windbg Utility Tools based upon PyKD](https://github.com/ohjeongwook/windbgtool)
+* [Intel PT log analyzer With Parallel Processing And Block Caching Support](https://github.com/ohjeongwook/iptanalyzer)
+* [REPack - Reverse engineering toolkit for exploit/malware analysis](https://github.com/ohjeongwook/REPack)
+* [PE File Manipulation Utility](https://github.com/ohjeongwook/petool)
+* [ohjeongwook / WindowsIntelPT](https://github.com/ohjeongwook/WindowsIntelPT) - Windows Intel PT Support
+* [wintracer](https://github.com/ohjeongwook/wintracer) - Windows Behavior Tracing Tool Based Upon Frida
+* [SharpPdb](https://github.com/southpolenator/SharpPdb) - on PDB debug symbols
+* [eronnen/procmon-parser](https://github.com/eronnen/procmon-parser) - python library to parse Procmon's internal format of logs
+
+*Tools*
+* :eyes:[**DarunGrim - open source tools**](https://darungrim.com/opensource/)
+* [Malwrologist - office/VBA reversing](https://github.com/DissectMalware?tab=repositories)
+* [**m417z**](https://m417z.com/about/)
+* [**dazzleUP**](https://github.com/hlldz/dazzleUP) - detects the privilege escalation vulnerabilities caused by misconfigurations and missing updates
+* [**Sophos Sandboxie is now available as an open-source tool**](https://securityaffairs.co/wordpress/101397/malware/sandboxie-sandbox-open-source.html)
+* [PyWinSandbox](https://github.com/karkason/pywinsandbox) - python-based Windows Sandbox Utillities
+* [**yusufqk/SystemToken**](https://github.com/yusufqk/SystemToken) - Steal privileged token to obtain SYSTEM shell
+* [Windows OS Hardening with PowerShell DSC](https://github.com/NVISO-BE/posh-dsc-windows-hardening)
+* [**Ps-Tools**](https://outflank.nl/blog/2020/03/11/red-team-tactics-advanced-process-monitoring-techniques-in-offensive-operations/) - process monitoring
+    - [GitHub](https://github.com/outflanknl/Ps-Tools)
+* [ThreadSpy](https://github.com/Kelvinhack/ThreadSpy) - Thread Hijacker
+* [Windows Memory Introspection with IceBox](https://thalium.github.io/blog/posts/windows-full-memory-introspection-with-icebox/)
+* [Physmem2profit](https://github.com/FSecureLABS/physmem2profit) - create a minidump of a target hosts' LSASS process by analysing physical memory remotely
+* [**Verifying Windows binaries, without Windows**](https://blog.trailofbits.com/2020/05/27/verifying-windows-binaries-without-windows/)
+* [FireEye Capa](https://github.com/fireeye/capa) - identify capabilities in PE executable files
+
+*self study*
+* [Windows for Reverse Engineers OS Internals](https://mycourses.aalto.fi/pluginfile.php/428583/mod_resource/content/2/Windows_for_reverse_engineers_OS_Internals_2017.pdf)
+* [Windows Internals Training & Consulting - blogs](https://windows-internals.com/pages/internals-blog/)
+    - [DKOM – Now with Symbolic Links!](https://windows-internals.com/dkom-now-with-symbolic-links/)
+    - [Symbolic Hooks Part 2 : Getting the Target Name](https://windows-internals.com/symhooks-part-two/)
+    - [Symbolic Hooks Part 3: The Remainder Theorem](https://windows-internals.com/symhooks-part-three/)
+    - [Symbolic Hooks Part 4: The App Container Traverse-ty](https://windows-internals.com/symhooks-part-four/)
+
+* [Introduction to Windbg Series](https://www.youtube.com/watch?list=PLhx7-txsG6t6n_E2LgDGqgvJtCHPL7UFu&v=8zBpqc3HkSE)
+
 ---
 
 
 ## Linux
+
+* [**Nick Frichette**](https://frichetten.com/blog/)
+* [**Fakhri Zulkifli**](https://fakhrizulkifli.github.io/) - A fan of software bugs and vulnerabilities
+* :eyes:[**10 Years of Linux Security**](https://grsecurity.net/10_years_of_linux_security.pdf)
+* :eyes:[**Collabora - news and blogs**](https://www.collabora.com/news-and-blog/)
+    - [Using syzkaller, part 4: Driver fuzzing](https://www.collabora.com/news-and-blog/blog/2020/06/26/using-syzkaller-part-4-driver-fuzzing/)
+* [Mastering Embedded Linux](https://www.thirtythreeforty.net/series/mastering-embedded-linux/)
+* [Debugging with AddressSanitizer and UndefinedBehaviorSanitizer (UBSAN)](https://www.youtube.com/watch?v=cbk4T_ybpuI&feature=youtu.be)
+* [Hijacking Library Functions and Injecting Code Using the Dynamic Linker](https://sumit-ghosh.com/articles/hijacking-library-functions-code-injection-ld-preload/)
+* [Writing a kernel driver](https://metabytezero.blogspot.com/2019/06/writing-kernel-driver.html)
+* [**Quarkslab - Playing Around With Google's Fuchsia Operating System**](http://blog.quarkslab.com/playing-around-with-the-fuchsia-operating-system.html)
+* [**Linux Privilege Escalation - HackTricks**](https://book.hacktricks.xyz/linux-unix/privilege-escalation)
+* [Effectiveness of Linux Rootkit Detection Tools](https://www.openwall.com/lists/lkrg-users/2020/06/14/5)
+* [GDB on the Linux Kernel: Debugging the Kernel part3](https://www.youtube.com/watch?v=unizGCcZg3Y&feature=youtu.be)
+* [Linux Kernel Runtime Guard (LKRG) in a nutshell](https://www.openwall.com/presentations/OSTconf2020-LKRG-In-A-Nutshell/)
+* [Linux System Call Table](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md)
+* [NeatMonster/slabdbg](https://github.com/NeatMonster/slabdbg) - GDB plug-in to exploit the kernel's SLUB allocator
+* [**Linux rootkits series**](https://xcellerator.github.io/categories/linux/)
+
+* [ELF file structure](https://metabytezero.blogspot.com/2019/10/elf-file-structure.html)
+* [Python for Reverse Engineering #1: ELF Binaries](https://medium.com/sector443/python-for-reverse-engineering-1-elf-binaries-e31e92c33732)
+
+* [MindShaRE: How to “Just Emulate It With QEMU”](https://www.zerodayinitiative.com/blog/2020/5/27/mindshare-how-to-just-emulate-it-with-qemu)
+
+* [Detecting Linux memfd_create() Fileless Malware with Command Line Forensics](https://www.sandflysecurity.com/blog/detecting-linux-memfd_create-fileless-malware-with-command-line-forensics/)
+
+*Tools*
+* [**microsoft/ProcMon-for-Linux**](https://github.com/microsoft/ProcMon-for-Linux) - can you believe that? :-)
+* [**0x36/BinTrace**](https://github.com/0x36/BinTrace) - process dump tool
+* [siemens/isar](https://github.com/siemens/isar) - Integration System for Automated Root filesystem generation
+* [efibootguard](https://github.com/siemens/efibootguard) - Simple UEFI boot loader
+* [siemens/meta-efibootguard](https://github.com/siemens/meta-efibootguard) - integrate efibootguard with a yocto project
+* [shibli2700 / Rekon](https://github.com/shibli2700/Rekon) - shell scripts for automating the tasks during recon
+* :eyes:[**XELFViewer**](https://github.com/horsicq/XELFViewer) - ELF editor, supports all major platforms
 
 ---
 
@@ -160,29 +471,65 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 
 ## Java
 
+* [JVM Reverse Engineering](https://tryhackme.com/room/jvmreverseengineering)
+* [Pyrogenic Infostealer static analysis – Part 0x1](https://www.securityinbits.com/malware-analysis/pyrogenic-infostealer-static-analysis-part-0x1/)
+* [Unpacking Pyrogenic/Qealler using Java agent -Part 0x2](https://www.securityinbits.com/malware-analysis/unpacking/unpacking-pyrogenic-qealler-using-java-agent-part-0x2/)
+* [How to write a (toy) JVM](https://zserge.com/posts/jvm/)
+* [Enumerate Java RMI functions and exploit RMI parameter unmarshalling vulnerabilities](https://github.com/BishopFox/rmiscout)
+
+*Tools*
+* [didi/JuShaTa](https://github.com/didi/JuShaTa) - a container that allows hot patching
+* [jd-cli](https://github.com/kwart/jd-cli) - Command line Java Decompiler
 
 ---
+
+
 ## C/C++
+* [Generating source-level Control Flow Graph using Clang 4.0](http://s4.ce.sharif.edu/blog/2019/12/31/clang/)
+* [Build your first LLVM Obfuscator](https://medium.com/@polarply/build-your-first-llvm-obfuscator-80d16583392b)
+* [OptOut - Compiler Undefined Behavior Optimizations](https://research.checkpoint.com/2020/optout-compiler-undefined-behavior-optimizations/) - from Check Point Research
+
+*Tools*
+* [BeetleChunks / insecure-coding-examples](https://github.com/BeetleChunks/insecure-coding-examples)
+* [danmar/cppcheck - static C/C++ checks](https://github.com/danmar/cppcheck)
+* [From a C project through assembly to shell code](https://vxug.fakedoma.in/papers/VXUG/Exclusive/FromaCprojectthroughassemblytoshellcodeHasherezade.pdf)
+* [Google C++ Language Interface Foundation (CLIF)](https://github.com/google/clif) - Binding generator to wrap C++ for Python using LLVM
 
 ---
 
 
 ## Python
+* :eyes:[**Decompyle++**](https://github.com/zrax/pycdc) - python byte code decompiler
+* [Nick Frichette - sample repos](https://github.com/Frichetten?tab=repositories)
+* [qwen001 - recon script](https://github.com/gwen001/myrecon.py)
 
 ---
 
 
 ## Rust
+* [New inline assembly syntax available in nightly](https://blog.rust-lang.org/inside-rust/2020/06/08/new-inline-asm.html)
+* [Programming Rules to Develop Secure Applications With Rust](https://www.ssi.gouv.fr/en/guide/programming-rules-to-develop-secure-applications-with-rust/)
+
+* [Rust UEFI Runtime Driver](https://github.com/x1tan/rust-uefi-runtime-driver)
+* [**intermezzOS/kernel - A hobby operating system, in Rust**](https://github.com/intermezzOS/kernel)
 
 ---
 
 
 ## GoLang
+* [Red Team: How to embed Golang tools in C#](https://medium.com/@shantanukhande/red-team-how-to-embed-golang-tools-in-c-e269bf33876a)
+* [Coverage Guided Fuzzing in Go](https://alexplaskett.github.io/coverage-guided-fuzzing-golang/)
+* [Malware Development Pt. 1: Dynamic Module Loading in Go](https://posts.specterops.io/malware-development-pt-1-dynamic-module-loading-in-go-1121f07f3a5a)
 
 ---
 
 
 ## Assembly
+* [**LordNoteworthy/cpu-internals**](https://github.com/LordNoteworthy/cpu-internals)
+* []()
+* []()
+* []()
+* []()
 
 ---
 
@@ -209,3 +556,4 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 
 ## Self Study
 
+* [Building reversing skills, crackme level 6 [write-up]](https://blog.hacktivesecurity.com/index.php?controller=post&action=view&id_post=38)
