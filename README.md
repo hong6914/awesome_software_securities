@@ -30,6 +30,8 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [Awesome Threat Detection and Hunting library](https://github.com/threat-hunting/awesome_Threat-Hunting)
 * [Awesome Malware Analysis](https://github.com/hslatman/awesome-malware-analysis)
 * [Awesome Mobile Security](https://github.com/vaib25vicky/awesome-mobile-security)
+* [Android Security Awesome](https://github.com/ashishb/android-security-awesome)
+* [Awesome Android Security](https://github.com/saeidshirazi/awesome-android-security)
 
 ---
 
@@ -238,6 +240,8 @@ A Curated list of sites and URLs on software and securities that I hope to learn
     - [author's site](http://www.debasish.in/)
 * [Facebook/infer](https://github.com/facebook/infer) - static code analyzer, supports Java, C, C++, Objective-C
 * [vanhauser-thc/libfuzzer-coverage](https://github.com/vanhauser-thc/libfuzzer-cov) - nice coverage HTML on libfuzzer runs
+
+* [catenacyber/webfuzz](https://github.com/catenacyber/webfuzz) - a fuzzer against web applications
 
 *self-study*
 * [Microsoft: A brief introduction to fuzzing](https://www.microsoft.com/en-us/research/blog/a-brief-introduction-to-fuzzing-and-why-its-an-important-tool-for-developers/)
@@ -637,26 +641,63 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [epi052/feroxbuster](https://github.com/epi052/feroxbuster) - A fast/simple recursive content discovery tool in Rust
 * [**s0md3v / ReconDog**](https://github.com/s0md3v/ReconDog) - Reconnaissance Swiss Army Knife
 * [s0md3v / Bolt CSRF Scanner](https://github.com/s0md3v/Bolt)
+* [**nccgroup/ScoutSuite: multi-cloud security-auditing tool**](https://github.com/nccgroup/ScoutSuite)
+* [zhutougg/Awesome-Intranet_pentest_tool](https://github.com/zhutougg/Awesome-Intranet_pentest_tool)
+* [**sysdream/ligolo**](https://github.com/sysdream/ligolo) - Reverse Tunneling made easy for pentesters
 
-* []()
+* [Windbg Tricks - Javascript Windbg Instrumentation](https://narly.me/posts/windbg-tricks-javascript-windbg/)
 
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-
-
-
+* [**brandonskerritt/RustScan**](https://github.com/brandonskerritt/RustScan) - Scans all 65k ports in 8 seconds
+* [Mistica: Swiss Army Knife For Arbitrary Application Communication Protocols](https://www.kitploit.com/2020/08/mistica-open-source-swiss-army-knife.html)
+* [**yogeshojha/rengine**](https://github.com/yogeshojha/rengine) - A simple recon engine for penetration testing
+* [**Cloud Security Tools**](https://cloudberry.engineering/tool/)
+* [NetblockTool](https://blog.netspi.com/netblocktool/) - The Easy Way to Find IP Addresses Owned by a Company
 
 ---
 
 
 ## Android
+* [**Gityuan - blogs**](http://gityuan.com/tags/)
+* [Why are Frida and QBDI a Great Blend on Android](https://blog.quarkslab.com/why-are-frida-and-qbdi-a-great-blend-on-android.html) - dynamically analyze native functions
+* [How to hook Android Native methods with Frida](https://erev0s.com/blog/how-hook-android-native-methods-frida-noob-friendly/)
+* [Based on Frida，Bypassing Xamarin Certificate Pinning on Android](https://www.gosecure.net/blog/2020/04/06/bypassing-xamarin-certificate-pinning-on-android/)
+* [An Android Package is no Longer a ZIP](https://www.fortinet.com/blog/threat-research/an-android-package-is-no-longer-a-zip)
+* Reversing DexGuard
+    - [Part 1 – Code Obfuscation & RASP](https://www.pnfsoftware.com/blog/reversing-dexguard/)
+    - [Part 2 – Assets and Code Encryption](https://www.pnfsoftware.com/blog/reversing-dexguard-encryption/)
+    - [Part 3 – Code Virtualization](https://www.pnfsoftware.com/blog/reversing-dexguard-virtualization/)
+* [Android Internals](https://ocw.cs.pub.ro/courses/_media/osp/lectures/lecture-internals.pdf)
+* [Android App Reverse Engineering 101](https://maddiestone.github.io/AndroidAppRE/app_fundamentals.html)
+* []()
+* []()
+* []()
+* []()
+* []()
+
+*Tools*
+* [ainD - Android (Anbox) in Docker](https://github.com/aind-containers/aind)
+* [**android security**](https://github.com/alphaSeclab/android-security/)
+* [**GetDroid**](https://github.com/thelinuxchoice/getdroid) - malicious Android apk generator
+* [Runtime Mobile Security (RMS)](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) - based on Frida
+* [android injection tool](https://github.com/oleavr/android-inject-custom) - based on Frida
+* [Drozer - Comprehensive security and attack framework for Android](https://labs.f-secure.com/tools/drozer/)
+* :eyes:[**APKiD**](https://github.com/rednaga/APKiD)
+* [**Quark Engine - An Obfuscation-Neglect Android Malware Scoring System**](https://github.com/quark-engine/quark-engine)
+* [Android analysis VM](https://github.com/1d8/Android-Analysis)
+* [**didi/VirtualAPK**](https://github.com/didi/VirtualAPK) - powerful and lightweight plugin framework
+* [**didi/DroidAssist**](https://github.com/didi/DroidAssist) - gradle plugin based on Javassist to edit bytecode
+* [DexGraph](https://github.com/ChiminhTT/DexGraph) - Modified DexDump to build control flow graph from classes.dex
+* [darvincisec/VirtualDynamicAnalysis](https://github.com/darvincisec/VirtualDynamicAnalysis)
+* [Popular Android Malware in 2018](https://github.com/sk3ptre/AndroidMalware_2018)
+* [**quark-engine - Android APK**](https://github.com/quark-engine/quark-engine)
+    - [apk-malware-samples](https://github.com/quark-engine/apk-malware-samples)
+* [mstfknn/android-malware-sample-library](https://github.com/mstfknn/android-malware-sample-library) - Android Malware Samples
+* [dwisiswant0/apkleaks](https://github.com/dwisiswant0/apkleaks) - Scan APK file for URIs, endpoints & secrets
+* :eyes:[**download sample APKs**](https://www.apkmirror.com/)
+
+*Self study*
+* [Android App Hacking](https://blog.securitybreached.org/2020/03/17/getting-started-in-android-apps-pentesting/)
+* [Reverse engineering an Android Application](https://epic.blog/reverse-engineering/2020/07/27/reverse-engineering-android-app.html)
 
 ---
 
