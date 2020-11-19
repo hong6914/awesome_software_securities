@@ -703,6 +703,10 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 
 
 ## Tools
+* :eyes:[**F-SEcure tools**](https://labs.f-secure.com/tools/)
+* :eyes:[**Diaphora - best diffing tool and IDA plugin**](https://github.com/joxeankoret/diaphora)
+* :eyes:[**SecWiki**](https://github.com/SecWiki)
+* :eyes:[**qilingframework/qiling**](https://github.com/qilingframework/qiling) - advanced binary emulation framework
 
 
 ---
@@ -710,3 +714,14 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ## Self Study
 
 * [Building reversing skills, crackme level 6 [write-up]](https://blog.hacktivesecurity.com/index.php?controller=post&action=view&id_post=38)
+* [So you want to be a web security researcher?](https://portswigger.net/research/so-you-want-to-be-a-web-security-researcher)
+* [Introduction to Reverse Engineering with Ghidra](https://hackaday.io/project/172292-introduction-to-reverse-engineering-with-ghidra)
+* [Hacking Articles - Raj Chandel's Blog](https://www.hackingarticles.in/) - entry level
+* [**Yossioren/AttacksonImplementationsCourseBook**](https://github.com/Yossioren/AttacksonImplementationsCourseBook)
+* [Debasish Mandal - The Big Bounty Tube](https://www.youtube.com/channel/UC9c5Bh5HVKoT91aiAVBqLuA) - youtube videos
+* [Bug Bounty Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters) - for beginners
+* [advanced search on reverse engineering](https://www.academia.edu/search?utf8=%E2%9C%93&q=reverse+engineering#)
+
+
+
+
