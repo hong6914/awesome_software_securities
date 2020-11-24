@@ -68,14 +68,13 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [Google Project Zero](https://googleprojectzero.blogspot.com/)
 * [Rapid7 blogs](https://blog.rapid7.com/tag/)
 * [mdsecresearch Publications](https://github.com/mdsecresearch/Publications)
-* []() - 
-* []() - 
 
 ---
 
 
 ## Conferences
 
+* [PPTs of HITBCyberWeek 2020 are released](https://cyberweek.ae/materials/2020/)
 * [DefCon](https://media.defcon.org/)
 * [USENIX Conferences](https://www.usenix.org/conferences/)
     - [USENIX Security '20 Technical Sessions](https://www.usenix.org/conference/usenixsecurity20/technical-sessions)
@@ -95,6 +94,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [theZoo - A Live Malware Repository](https://thezoo.morirt.com/)
 * [The national cert of Switzerland has started pushing their samples to it](https://twitter.com/GovCERT_CH/status/1308658448167505920)
 * [MalwareBazaar](https://bazaar.abuse.ch/) - abuse.ch's project to share malware samples with the community
+* [APT Malware Dataset](https://github.com/cyber-research/APTMalware)
 
 *URLs*
 * [When Anti-Virus Engines Look Like Kernel Rootkits](https://volatility-labs.blogspot.com/2020/05/when-anti-virus-engines-look-like.html)
