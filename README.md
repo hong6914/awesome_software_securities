@@ -2,24 +2,24 @@
 A Curated list of sites and URLs on software and securities that I hope to learn from.
 
 - [Awesome Sites](#awesome-sites)
-- [Sites](#sites-urls)
-- [Conferences](#conferences-urls)
-- [Security](#security-urls)
-- [Fuzzing](#fuzzing-urls)
-- [Windows](#windows-urls)
-- [Linux](#linux-urls)
-- [iOS](#ios-urls)
-- [Java](#java-urls)
-- [C/C++](#c-c-urls)
-- [Python](#python-urls)
-- [Rust](#rust-urls)
-- [GoLang](#golang-urls)
-- [Assembly](#assembly-urls)
-- [VM](#vm-urls)
-- [Web](#web-urls)
-- [Android](#android-urls)
-- [Tools](#tools-urls)
-- [Self Study](#self-study-urls)
+- [Sites Better Visiting Every Week](#-sites-urls)
+- [Conferences](#-conferences-urls)
+- [Security](#-security-urls)
+- [Fuzzing](#-fuzzing-urls)
+- [Windows](#-windows-urls)
+- [Linux](#-linux-urls)
+- [iOS](#-ios-urls)
+- [Java](#-java-urls)
+- [C/C++](#-c-&-c++-urls)
+- [Python](#-python-urls)
+- [Rust](#-rust-urls)
+- [GoLang](#-golang-urls)
+- [Assembly](#-assembly-urls)
+- [VM](#-vm-urls)
+- [Web](#-web-urls)
+- [Android](#-android-urls)
+- [Tools](#-tools-urls)
+- [Self Study](#-self-study-urls)
 
 
 ---
@@ -36,7 +36,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Sites
+## Sites URLs
 *Sites better visiting every week*
 
 * [vxunderground](https://vxug.fakedoma.in/) - largest collection of malware source, samples, and papers
@@ -72,7 +72,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Conferences
+## Conferences URLs
 
 * [PPTs of HITBCyberWeek 2020 are released](https://cyberweek.ae/materials/2020/)
 * [DefCon](https://media.defcon.org/)
@@ -84,7 +84,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Security
+## Security URLs
 
 *Malware Samples and Database*
 
@@ -140,7 +140,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Fuzzing
+## Fuzzing URLs
 
 *Concerences*
     - [FuzzCon Europe 2020](https://www.youtube.com/playlist?list=PLI0R_0_8-TV4JArtdlgnuPtgXALZxAYqu)
@@ -252,7 +252,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Windows
+## Windows URLs
 
 * :eyes:[**Windows Exploit Development**](https://github.com/FULLSHADE/WindowsExploitationResources)
 * [**The Human Machine Interface**](https://h0mbre.github.io/)
@@ -429,7 +429,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Linux
+## Linux URLs
 
 * [**Nick Frichette**](https://frichetten.com/blog/)
 * [**Fakhri Zulkifli**](https://fakhrizulkifli.github.io/) - A fan of software bugs and vulnerabilities
@@ -468,12 +468,12 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## iOS
+## iOS URLs
 
 ---
 
 
-## Java
+## Java URLs
 
 * [JVM Reverse Engineering](https://tryhackme.com/room/jvmreverseengineering)
 * [Pyrogenic Infostealer static analysis – Part 0x1](https://www.securityinbits.com/malware-analysis/pyrogenic-infostealer-static-analysis-part-0x1/)
@@ -488,7 +488,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## C/C++
+## C & C++ URLs
 * [Generating source-level Control Flow Graph using Clang 4.0](http://s4.ce.sharif.edu/blog/2019/12/31/clang/)
 * [Build your first LLVM Obfuscator](https://medium.com/@polarply/build-your-first-llvm-obfuscator-80d16583392b)
 * [OptOut - Compiler Undefined Behavior Optimizations](https://research.checkpoint.com/2020/optout-compiler-undefined-behavior-optimizations/) - from Check Point Research
@@ -502,7 +502,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Python
+## Python URLs
 * :eyes:[**Decompyle++**](https://github.com/zrax/pycdc) - python byte code decompiler
 * [Nick Frichette - sample repos](https://github.com/Frichetten?tab=repositories)
 * [qwen001 - recon script](https://github.com/gwen001/myrecon.py)
@@ -510,7 +510,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Rust
+## Rust URLs
 * [New inline assembly syntax available in nightly](https://blog.rust-lang.org/inside-rust/2020/06/08/new-inline-asm.html)
 * [Programming Rules to Develop Secure Applications With Rust](https://www.ssi.gouv.fr/en/guide/programming-rules-to-develop-secure-applications-with-rust/)
 
@@ -520,7 +520,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## GoLang
+## GoLang URLs
 * [Red Team: How to embed Golang tools in C#](https://medium.com/@shantanukhande/red-team-how-to-embed-golang-tools-in-c-e269bf33876a)
 * [Coverage Guided Fuzzing in Go](https://alexplaskett.github.io/coverage-guided-fuzzing-golang/)
 * [Malware Development Pt. 1: Dynamic Module Loading in Go](https://posts.specterops.io/malware-development-pt-1-dynamic-module-loading-in-go-1121f07f3a5a)
@@ -528,7 +528,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Assembly
+## Assembly URLs
 * [**LordNoteworthy/cpu-internals**](https://github.com/LordNoteworthy/cpu-internals)
 * [The Holy Book of X86](https://github.com/Captainarash/The_Holy_Book_of_X86)
 * [Null Terminated Programming 101 - x64](https://0x00sec.org/t/null-terminated-programming-101-x64/20398)
@@ -559,7 +559,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## VM
+## VM URLs
 * :eyes:[**Wenzel/awesome-virtualization**](https://github.com/Wenzel/awesome-virtualization)
 * [**Nody´s blog**](https://blog.nody.cc/)
     - [Container Breakouts – Part 1: Access to root directory of the Host](https://blog.nody.cc/posts/container-breakouts-part1/)
@@ -610,7 +610,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Web
+## Web URLs
 * [**Unicode Security Guide**](http://websec.github.io/unicode-security-guide)
 * [Fuzzing sockets, part 1: FTP servers - GitHub Security Lab](https://securitylab.github.com/research/fuzzing-sockets-FTP)
 * [List of Top Ten Web Hacking Techniques](https://github.com/irsdl/top10webseclist)
@@ -656,7 +656,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Android
+## Android URLs
 * [**Gityuan - blogs**](http://gityuan.com/tags/)
 * [Why are Frida and QBDI a Great Blend on Android](https://blog.quarkslab.com/why-are-frida-and-qbdi-a-great-blend-on-android.html) - dynamically analyze native functions
 * [How to hook Android Native methods with Frida](https://erev0s.com/blog/how-hook-android-native-methods-frida-noob-friendly/)
@@ -668,11 +668,6 @@ A Curated list of sites and URLs on software and securities that I hope to learn
     - [Part 3 – Code Virtualization](https://www.pnfsoftware.com/blog/reversing-dexguard-virtualization/)
 * [Android Internals](https://ocw.cs.pub.ro/courses/_media/osp/lectures/lecture-internals.pdf)
 * [Android App Reverse Engineering 101](https://maddiestone.github.io/AndroidAppRE/app_fundamentals.html)
-* []()
-* []()
-* []()
-* []()
-* []()
 
 *Tools*
 * [ainD - Android (Anbox) in Docker](https://github.com/aind-containers/aind)
@@ -702,16 +697,33 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 ---
 
 
-## Tools
+## Tools URLs
 * :eyes:[**F-SEcure tools**](https://labs.f-secure.com/tools/)
 * :eyes:[**Diaphora - best diffing tool and IDA plugin**](https://github.com/joxeankoret/diaphora)
 * :eyes:[**SecWiki**](https://github.com/SecWiki)
 * :eyes:[**qilingframework/qiling**](https://github.com/qilingframework/qiling) - advanced binary emulation framework
+* [**InfoSecMatter**](https://www.infosecmatter.com/tools/)
+
+*IDA Pro related*
+* [gaasedelen/lighthouse](https://github.com/gaasedelen/lighthouse) - A Code Coverage Explorer for Reverse Engineers
+    - [author's blogs](https://blog.ret2.io/)
+* [0xgalz/Virtuailor](https://github.com/0xgalz/Virtuailor) - IDAPython tool for creating automatic C++ virtual tables in IDA Pro
+* [GReAT thoughts: Awesome IDA Pro plugins](https://securelist.com/great-ida-pro-plugins/97898/)
+* [IDA Pro Tips to Add to Your Bag of Tricks](https://swarm.ptsecurity.com/ida-pro-tips/)
+* [Dennis Elser - IDA Pro plugins and scripts](https://github.com/patois)
+* [SiBears - IDA tools/plugins](https://github.com/sibears)
+* [IDA Pro Plugin For Windows Driver Reversing](https://labs.f-secure.com/tools/win-driver-tool/)
+* [IDA Pro Tips to Add to Your Bag of Tricks](https://swarm.ptsecurity.com/ida-pro-tips/)
+
+*Ghidra related*
+* [Decompiling Stack Strings in Ghidra](https://saml98.github.io/jekyll/update/2020/05/03/ghidra-stack-strings.html)
+* [Use angr in Ghidra](https://github.com/Nalen98/AngryGhidra)
+* [binjo/ghidra_scripts](https://github.com/binjo/ghidra_scripts)
 
 
 ---
 
-## Self Study
+## Self Study URLs
 
 * [Building reversing skills, crackme level 6 [write-up]](https://blog.hacktivesecurity.com/index.php?controller=post&action=view&id_post=38)
 * [So you want to be a web security researcher?](https://portswigger.net/research/so-you-want-to-be-a-web-security-researcher)
@@ -722,6 +734,6 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [Bug Bounty Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters) - for beginners
 * [advanced search on reverse engineering](https://www.academia.edu/search?utf8=%E2%9C%93&q=reverse+engineering#)
 
-
+* [[CTF] Pwnable.kr write-up - Hash Collision](https://hg8.sh/posts/pwnable/collision/)
 
 
