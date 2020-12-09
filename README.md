@@ -95,6 +95,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [The national cert of Switzerland has started pushing their samples to it](https://twitter.com/GovCERT_CH/status/1308658448167505920)
 * [MalwareBazaar](https://bazaar.abuse.ch/) - abuse.ch's project to share malware samples with the community
 * [APT Malware Dataset](https://github.com/cyber-research/APTMalware)
+* [Software security paper list](https://github.com/AdaLogics/software-security-paper-list)
 
 *URLs*
 * [When Anti-Virus Engines Look Like Kernel Rootkits](https://volatility-labs.blogspot.com/2020/05/when-anti-virus-engines-look-like.html)
@@ -119,14 +120,14 @@ A Curated list of sites and URLs on software and securities that I hope to learn
     - [HackTheWorld - Bypasses All Antivirus so far](https://github.com/stormshadow07/HackTheWorld)
     - [Armadito core](https://github.com/armadito/armadito-av)
     - [OWASP / SecureTea-Project](https://github.com/OWASP/SecureTea-Project)
-    - :eyes:[**Antimalware-Research**](https://github.com/NtRaiseHardError/Antimalware-Research)
+    - :point_right:[**Antimalware-Research**](https://github.com/NtRaiseHardError/Antimalware-Research)
     - [apriorit / Simple-Antirootkit-SST-Unhooker](https://github.com/apriorit/Simple-Antirootkit-SST-Unhooker)
     - [Malice Plugins](https://github.com/malice-plugins)
     - [basicLibPP](https://github.com/zzy590/basicLibPP) - library for inline-hook,lock,compress etc
     - [Winpayloads](https://github.com/nccgroup/Winpayloads) - Undetectable Windows Payload Generation
     - [Ch0pin / AVIator](https://github.com/Ch0pin/AVIator) - a backdoor generator utility
 
-    - :eyes:[**ClamAV**](https://github.com/Cisco-Talos/clamav-devel) - on Linux
+    - :point_right:[**ClamAV**](https://github.com/Cisco-Talos/clamav-devel) - on Linux
     - [Docker ClamAV](https://github.com/openbridge/clamav)
     - [mko-x / docker-clamav](https://github.com/mko-x/docker-clamav)
     - [tiredofit/docker-clamav](https://github.com/tiredofit/docker-clamav) - Dockerfile to build an Clam Antivirus container image
@@ -146,18 +147,18 @@ A Curated list of sites and URLs on software and securities that I hope to learn
     - [FuzzCon Europe 2020](https://www.youtube.com/playlist?list=PLI0R_0_8-TV4JArtdlgnuPtgXALZxAYqu)
     - [Fuzz Week 2020](https://gamozolabs.github.io/2020/07/12/fuzz_week_2020.html)
 
-* :eyes:[**SecurityLab - research**](https://securitylab.github.com/research)
+* :point_right:[**SecurityLab - research**](https://securitylab.github.com/research)
     - [Fuzzing software: common challenges and potential solutions (Part 1)](https://securitylab.github.com/research/fuzzing-challenges-solutions-1)
     - [Fuzzing software: advanced tricks (Part 2)](https://securitylab.github.com/research/fuzzing-software-2)
-* :eyes:[**Fuzz publications**](https://mboehme.github.io/)
+* :point_right:[**Fuzz publications**](https://mboehme.github.io/)
     - [Boosting Fuzzer Efficiency: An Information Theoretic Perspective](https://mboehme.github.io/paper/FSE20.Entropy.pdf)
-* :eyes:[**Chair for Systems Security**](https://github.com/RUB-SysSec?tab=repositories)
-* :eyes:[**SOLA - University of Stuttgart, Germany**](http://www.software-lab.org/publications.html)
-* :eyes:[**Gamozo Labs Blog**](https://gamozolabs.github.io/)
+* :point_right:[**Chair for Systems Security**](https://github.com/RUB-SysSec?tab=repositories)
+* :point_right:[**SOLA - University of Stuttgart, Germany**](http://www.software-lab.org/publications.html)
+* :point_right:[**Gamozo Labs Blog**](https://gamozolabs.github.io/)
     - [mesos](https://github.com/gamozolabs)
-* :eyes:[**Long Lu**](https://www.longlu.org/)
+* :point_right:[**Long Lu**](https://www.longlu.org/)
     - [Finding Bugs Using Your Own Code: Detecting Functionally-similar yet Inconsistent Code](https://www.longlu.org/publication/fics/)
-* :eyes:[**Academic papers related to fuzzing, binary analysis, and exploit dev**](https://github.com/0xricksanchez/paper_collection)
+* :point_right:[**Academic papers related to fuzzing, binary analysis, and exploit dev**](https://github.com/0xricksanchez/paper_collection)
 
 *Fuzzing Techniques*
 * [Fuzzing Image Parsing in Windows, Part One: Color Profiles](https://www.fireeye.com/blog/threat-research/2020/09/fuzzing-image-parsing-in-windows-color-profiles.html)
@@ -178,7 +179,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
     - [part 2: Improving Performance](https://h0mbre.github.io/Fuzzing-Like-a-Caveman-2/)
     - [part 3: Trying to Somewhat Understand The Importance Code Coverage](https://h0mbre.github.io/Fuzzing-Like-A-Caveman-3/)
     - [part 4: Snapshot/Code Coverage Fuzzer!](https://h0mbre.github.io/Fuzzing-Like-A-Caveman-4/)
-* :eyes:[**On Measuring and Visualizing Fuzzer Performance**](https://hexgolems.com/2020/08/on-measuring-and-visualizing-fuzzer-performance/)
+* :point_right:[**On Measuring and Visualizing Fuzzer Performance**](https://hexgolems.com/2020/08/on-measuring-and-visualizing-fuzzer-performance/)
 * Resmack
     - [Part 1: Grammar Fuzzing Thoughts](https://narly.me/posts/resmack-grammar-fuzz-thoughts-1/)
     - [Part 2: Full Fuzzer Detour](https://narly.me/posts/resmack-detour-full-fuzzer-experiment/)
@@ -192,8 +193,8 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [ret2spec: Speculative Execution Using Return Stack Buffers](https://christian-rossow.de/publications/ret2spec-ccs2018.pdf)
 * [Designing New Operating Primitives to Improve Fuzzing Performance](https://acmccs.github.io/papers/p2313-xuA.pdf)
 * [USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation](https://nebelwelt.net/publications/files/20SEC3.pdf)
-* :eyes:[**FuzzGen: Automatic Fuzzer Generation**](https://github.com/HexHive/FuzzGen)
-* :eyes:[**FireEye: malware unpacking based on Bochs emulation**](https://www.fireeye.com/blog/threat-research/2020/04/code-grafting-to-unpack-malware-in-emulation.html)
+* :point_right:[**FuzzGen: Automatic Fuzzer Generation**](https://github.com/HexHive/FuzzGen)
+* :point_right:[**FireEye: malware unpacking based on Bochs emulation**](https://www.fireeye.com/blog/threat-research/2020/04/code-grafting-to-unpack-malware-in-emulation.html)
 
 *Fuzz on Linux*
 * [Use Fault Injection to Turn Data Transfers into Arbitrary Execution](https://raelize.com/upload/using-fault-injection-for-turning-data-transfers-into-arbitrary-execution-poc2019-slides-1.0.pdf)
@@ -206,20 +207,20 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [Speeding up fuzzing rust with shared initialization](https://da-data.blogspot.com/2020/05/speeding-up-fuzzing-rust-with-shared.html)
 
 *Tools*
-* :eyes:[**AFL++**](https://github.com/antonio-morales/AFLplusplus)
+* :point_right:[**AFL++**](https://github.com/antonio-morales/AFLplusplus)
 * [AFLNet: A Greybox Fuzzer for Network Protocols](https://github.com/aflnet/aflnet)
 * [Magma - a Fuzzer evaluator](https://hexhive.epfl.ch/magma/)
 * [Nautilus - A Grammar Based Feedback Fuzzer](https://www.kitploit.com/2020/08/nautilus-grammar-based-feedback-fuzzer.html)
 * [Driller: augmenting AFL with symbolic execution](https://github.com/shellphish/driller)
 * [shellphish-qemu](https://github.com/shellphish/shellphish-qemu) - A pip wrapper around ridiculous amount of qemu forks
-* :eyes:[**FLUFFI - A distributed evolutionary binary fuzzer for pentesters**](https://github.com/siemens/fluffi)
+* :point_right:[**FLUFFI - A distributed evolutionary binary fuzzer for pentesters**](https://github.com/siemens/fluffi)
     - [siemens/drace](https://github.com/siemens/drace) - DynamoRIO based windows binary instrumentor
-* :eyes:[**Sienna Locomotive fuzz for Windows**](https://github.com/trailofbits/sienna-locomotive)
+* :point_right:[**Sienna Locomotive fuzz for Windows**](https://github.com/trailofbits/sienna-locomotive)
 * Google Project Zero
     - [TinyInst](https://github.com/googleprojectzero/TinyInst) - lightweight dynamic instrumentation library
     - [DrSancov](https://github.com/googleprojectzero/DrSancov) - DynamoRIO plugin to get ASAN and SanitizerCoverage compatible output for closed-source executables
     - [SkCodecFuzzer](https://github.com/googleprojectzero/SkCodecFuzzer) - Android Skia Image Fuzzing Harness
-* :eyes:[**Gum - cross-platform instrumentation and introspection library in C**](https://github.com/frida/frida-gum)
+* :point_right:[**Gum - cross-platform instrumentation and introspection library in C**](https://github.com/frida/frida-gum)
 * [PeAfl](https://ezqelusia.blogspot.com/2020/06/some-dos-bugs-while-processing.html) - Some DOS bugs while processing Microsoft LNK files
 * [**FuzzExMachina**](https://github.com/fgsect/fexm)
     - [blackhat 21018 paper](https://i.blackhat.com/us-18/Thu-August-9/us-18-Ulitzsch-Follow-The-White-Rabbit-Simplifying-Fuzz-Testing-Using-FuzzExMachina.pdf)
@@ -254,13 +255,13 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 
 ## Windows URLs
 
-* :eyes:[**Windows Exploit Development**](https://github.com/FULLSHADE/WindowsExploitationResources)
+* :point_right:[**Windows Exploit Development**](https://github.com/FULLSHADE/WindowsExploitationResources)
 * [**The Human Machine Interface**](https://h0mbre.github.io/)
     - [driver CVEs & exploits](https://h0mbre.github.io/)
 * [**NCC group**](https://research.nccgroup.com/)
 * [**PenTestPartner**](https://www.pentestpartners.com/security-blog/) - security blogs
 * [**RACK911 Labs**](https://www.rack911labs.com/research/exploiting-almost-every-antivirus-software/) - Exploiting (Almost) Every Antivirus Software
-* :eyes:[**F-Secure LABS**](https://labs.f-secure.com/blog/)
+* :point_right:[**F-Secure LABS**](https://labs.f-secure.com/blog/)
     - [Bypassing Windows Defender Runtime Scanning](https://labs.f-secure.com/blog/bypassing-windows-defender-runtime-scanning/)
     - [What the Fuzz](https://labs.f-secure.com/blog/what-the-fuzz/)
     - [Ventures into Hyper-V - Fuzzing hypercalls](https://labs.f-secure.com/blog/ventures-into-hyper-v-part-1-fuzzing-hypercalls/)
@@ -271,14 +272,14 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [Exploiting Feedback Hub in Windows 10](http://decoder.cloud/2020/04/28/exploiting-feedback-hub-in-windows-10/)
 * [**PS C:\Users\itm4n> _ blogs**](https://itm4n.github.io/)
 * [**n4r1b/re$ blogs**](https://www.n4r1b.com/posts/)
-* :eyes:[**Sina & Shahriar's Blog**](https://rayanfam.com/topics/category/windows/)
+* :point_right:[**Sina & Shahriar's Blog**](https://rayanfam.com/topics/category/windows/)
 * [**wbenny**](https://github.com/wbenny) - GitHub
 
 *kernel*
-* :eyes:[**awesome-windows-kernel-security-development**](https://github.com/ExpLife0011/awesome-windows-kernel-security-development)
+* :point_right:[**awesome-windows-kernel-security-development**](https://github.com/ExpLife0011/awesome-windows-kernel-security-development)
 * [How to use Trend Micro's Rootkit Remover to Install a Rootkit](https://d4stiny.github.io/How-to-use-Trend-Micro-Rootkit-Remover-to-Install-a-Rootkit/)
 * [Study of IOMMU (VT-d) and Kernel DMA Protection on Intel Processors](https://standa-note.blogspot.com/2020/05/introductory-study-of-iommu-vt-d-and.html)
-* :eyes:[**Low level pleasure blogs**](https://repnz.github.io/posts/)
+* :point_right:[**Low level pleasure blogs**](https://repnz.github.io/posts/)
 * [**Windows internals blogs**](https://windows-internals.com/pages/internals-blog/)
 * [Basic Windows Kernel Programming](https://github.com/raminfp/basicwindowskernelprogramming)
 * [Bugs on the Windshield: Fuzzing the Windows Kernel](https://research.checkpoint.com/2020/bugs-on-the-windshield-fuzzing-the-windows-kernel/)
@@ -299,7 +300,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [can1357/NtLua](https://github.com/can1357/NtLua) - running Lua Coroutines inside Windows kernel
 
 *user space*
-* :eyes:[**Windows Hot Patching Mechanism Explained**](https://dev.to/pelock/windows-hot-patching-mechanism-explained-2m1f)
+* :point_right:[**Windows Hot Patching Mechanism Explained**](https://dev.to/pelock/windows-hot-patching-mechanism-explained-2m1f)
 * [**Solving Uninitialized Stack Memory on Windows**](https://msrc-blog.microsoft.com/2020/05/13/solving-uninitialized-stack-memory-on-windows/)
 * [Netwalker Fileless Ransomware Injected via Reflective Loading](https://blog.trendmicro.com/trendlabs-security-intelligence/netwalker-fileless-ransomware-injected-via-reflective-loading/)
 * [KMS-activator](https://github.com/CHEF-KOCH/KMS-activator) - on activating Windows
@@ -368,7 +369,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 
 * [Advanced Debugging .NET](https://havitknowledgebase.files.wordpress.com/2016/02/2016-02-showit-sk-advanced-debugging-net.pdf)
 
-* :eyes:[**dnpatch**](https://github.com/ioncodes/dnpatch)
+* :point_right:[**dnpatch**](https://github.com/ioncodes/dnpatch)
 * [guibacellar/DNCI: DNCI](https://github.com/guibacellar/DNCI) - .Net Code Injector
 * [Windows C# RPC Clients](https://github.com/tyranid/WindowsRpcClients)
 * [Athena - security investigation and info collection](https://labs.f-secure.com/tools/athena/)
@@ -377,9 +378,9 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [**cobbr/Covenant**](https://github.com/cobbr/Covenant) - a collaborative .NET C2 framework for red teamers
 
 *debugging*
-* :eyes:[**X64Dbg**](https://www.kitploit.com/2020/07/x64dbg-open-source-x64x32-debugger-for.html)
+* :point_right:[**X64Dbg**](https://www.kitploit.com/2020/07/x64dbg-open-source-x64x32-debugger-for.html)
 * [**HyperDbg**](https://github.com/HyperDbg/HyperDbg) - supports both kernel and user spaces
-* :eyes:[**ioncodes**](https://github.com/ioncodes)
+* :point_right:[**ioncodes**](https://github.com/ioncodes)
     - [dbgmon - parse all messages sent to DbgPrint without process interaction](https://github.com/ioncodes/dbgmon)
     - [WinAPI C++ wrapper](https://github.com/ioncodes/wrapper)
     - [shark - Turn off PatchGuard in realtime on win7 (7600) ~ win10 (18950)](https://github.com/ioncodes/Shark)
@@ -400,7 +401,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [eronnen/procmon-parser](https://github.com/eronnen/procmon-parser) - python library to parse Procmon's internal format of logs
 
 *Tools*
-* :eyes:[**DarunGrim - open source tools**](https://darungrim.com/opensource/)
+* :point_right:[**DarunGrim - open source tools**](https://darungrim.com/opensource/)
 * [Malwrologist - office/VBA reversing](https://github.com/DissectMalware?tab=repositories)
 * [**m417z**](https://m417z.com/about/)
 * [**dazzleUP**](https://github.com/hlldz/dazzleUP) - detects the privilege escalation vulnerabilities caused by misconfigurations and missing updates
@@ -433,8 +434,8 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 
 * [**Nick Frichette**](https://frichetten.com/blog/)
 * [**Fakhri Zulkifli**](https://fakhrizulkifli.github.io/) - A fan of software bugs and vulnerabilities
-* :eyes:[**10 Years of Linux Security**](https://grsecurity.net/10_years_of_linux_security.pdf)
-* :eyes:[**Collabora - news and blogs**](https://www.collabora.com/news-and-blog/)
+* :point_right:[**10 Years of Linux Security**](https://grsecurity.net/10_years_of_linux_security.pdf)
+* :point_right:[**Collabora - news and blogs**](https://www.collabora.com/news-and-blog/)
     - [Using syzkaller, part 4: Driver fuzzing](https://www.collabora.com/news-and-blog/blog/2020/06/26/using-syzkaller-part-4-driver-fuzzing/)
 * [Mastering Embedded Linux](https://www.thirtythreeforty.net/series/mastering-embedded-linux/)
 * [Debugging with AddressSanitizer and UndefinedBehaviorSanitizer (UBSAN)](https://www.youtube.com/watch?v=cbk4T_ybpuI&feature=youtu.be)
@@ -463,7 +464,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [efibootguard](https://github.com/siemens/efibootguard) - Simple UEFI boot loader
 * [siemens/meta-efibootguard](https://github.com/siemens/meta-efibootguard) - integrate efibootguard with a yocto project
 * [shibli2700 / Rekon](https://github.com/shibli2700/Rekon) - shell scripts for automating the tasks during recon
-* :eyes:[**XELFViewer**](https://github.com/horsicq/XELFViewer) - ELF editor, supports all major platforms
+* :point_right:[**XELFViewer**](https://github.com/horsicq/XELFViewer) - ELF editor, supports all major platforms
 
 ---
 
@@ -503,7 +504,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 
 
 ## Python URLs
-* :eyes:[**Decompyle++**](https://github.com/zrax/pycdc) - python byte code decompiler
+* :point_right:[**Decompyle++**](https://github.com/zrax/pycdc) - python byte code decompiler
 * [Nick Frichette - sample repos](https://github.com/Frichetten?tab=repositories)
 * [qwen001 - recon script](https://github.com/gwen001/myrecon.py)
 
@@ -540,7 +541,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [Interesting Behaviors in x86 Instructions](https://narly.me/posts/interesting-behaviors-in-x86/)
 * [acru3l's blog](https://acru3l.github.io/)
 * [Latches inside: Reverse-engineering the Intel 8086's instruction register](http://www.righto.com/2020/08/latches-inside-reverse-engineering.html)
-* :eyes:[**Reversing**](https://artik.blue/reversing)
+* :point_right:[**Reversing**](https://artik.blue/reversing)
     - Reversing 32bit and 64bit binaries using Radare2-7
         - [1 intro](https://artik.blue/reversing-radare2-1)
         - [2 conditionals](https://artik.blue/reversing-radare2-2)
@@ -560,7 +561,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 
 
 ## VM URLs
-* :eyes:[**Wenzel/awesome-virtualization**](https://github.com/Wenzel/awesome-virtualization)
+* :point_right:[**Wenzel/awesome-virtualization**](https://github.com/Wenzel/awesome-virtualization)
 * [**Nody´s blog**](https://blog.nody.cc/)
     - [Container Breakouts – Part 1: Access to root directory of the Host](https://blog.nody.cc/posts/container-breakouts-part1/)
 
@@ -580,7 +581,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [Introduction To Virtualization](https://yuvaly0.github.io/2020/06/19/introduction-to-virtualization.html)
 
 * [Microsoft Hyper-V Type Confusion leading to Arbitrary Memory Dereference](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-003/)
-* :eyes: **Alex Ionescu - Writing a Hyper-V “Bridge” for Fuzzing**
+* :point_right: **Alex Ionescu - Writing a Hyper-V “Bridge” for Fuzzing**
     - [Part 1: WDF](https://alex-ionescu.com/?p=377)
     - [Part 2 : Hypercalls & MDLs](https://alex-ionescu.com/?p=471)
 * [Hyper-V #0x0 - Research setup](https://foxhex0ne.blogspot.com/2020/05/hyper-v-0x0-research-setup.html)
@@ -676,7 +677,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [Runtime Mobile Security (RMS)](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) - based on Frida
 * [android injection tool](https://github.com/oleavr/android-inject-custom) - based on Frida
 * [Drozer - Comprehensive security and attack framework for Android](https://labs.f-secure.com/tools/drozer/)
-* :eyes:[**APKiD**](https://github.com/rednaga/APKiD)
+* :point_right:[**APKiD**](https://github.com/rednaga/APKiD)
 * [**Quark Engine - An Obfuscation-Neglect Android Malware Scoring System**](https://github.com/quark-engine/quark-engine)
 * [Android analysis VM](https://github.com/1d8/Android-Analysis)
 * [**didi/VirtualAPK**](https://github.com/didi/VirtualAPK) - powerful and lightweight plugin framework
@@ -688,7 +689,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
     - [apk-malware-samples](https://github.com/quark-engine/apk-malware-samples)
 * [mstfknn/android-malware-sample-library](https://github.com/mstfknn/android-malware-sample-library) - Android Malware Samples
 * [dwisiswant0/apkleaks](https://github.com/dwisiswant0/apkleaks) - Scan APK file for URIs, endpoints & secrets
-* :eyes:[**download sample APKs**](https://www.apkmirror.com/)
+* :point_right:[**download sample APKs**](https://www.apkmirror.com/)
 
 *Self study*
 * [Android App Hacking](https://blog.securitybreached.org/2020/03/17/getting-started-in-android-apps-pentesting/)
@@ -698,10 +699,10 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 
 
 ## Tools URLs
-* :eyes:[**F-SEcure tools**](https://labs.f-secure.com/tools/)
-* :eyes:[**Diaphora - best diffing tool and IDA plugin**](https://github.com/joxeankoret/diaphora)
-* :eyes:[**SecWiki**](https://github.com/SecWiki)
-* :eyes:[**qilingframework/qiling**](https://github.com/qilingframework/qiling) - advanced binary emulation framework
+* :point_right:[**F-SEcure tools**](https://labs.f-secure.com/tools/)
+* :point_right:[**Diaphora - best diffing tool and IDA plugin**](https://github.com/joxeankoret/diaphora)
+* :point_right:[**SecWiki**](https://github.com/SecWiki)
+* :point_right:[**qilingframework/qiling**](https://github.com/qilingframework/qiling) - advanced binary emulation framework
 * [**InfoSecMatter**](https://www.infosecmatter.com/tools/)
 
 *IDA Pro related*
