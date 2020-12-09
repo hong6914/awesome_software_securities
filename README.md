@@ -1,4 +1,4 @@
-# awesome_software_securities
+# Awesome Software Securities
 A Curated list of sites and URLs on software and securities that I hope to learn from.
 
 - [Awesome Sites](#awesome-sites)
