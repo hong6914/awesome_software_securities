@@ -1,3 +1,7 @@
+<p align="center"> 
+<img src="https://github.com/hong6914/awesome_software_securities/blob/main/shield.png">
+</p>
+
 # Awesome Software Securities
 A Curated list of sites and URLs on software and securities that I hope to learn from.
 
