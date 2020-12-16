@@ -51,7 +51,7 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [Penetration Testing](https://securityonline.info/)
 * [Quarkslab's blog](https://blog.quarkslab.com/index.html)
 * [KitPloit](https://www.kitploit.com/)
-* Chcekpoint Research
+* Checkpoint Research
     - [Evasion techniques](https://evasions.checkpoint.com/)
     - [Vulnerability Repository](https://cpr-zero.checkpoint.com/)
     - [Anti-Debug Tricks](https://anti-debug.checkpoint.com/)
