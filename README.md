@@ -3,12 +3,12 @@
 </p>
 
 # Awesome Software Securities
-A Curated list of sites and URLs on software and securities that I hope to learn from.
+A Curated list of sites and URLs on software and securities that I hope to learn from you guys.
 
 - [Awesome Sites](#awesome-sites)
 - [Sites Better Visiting Every Week](#sites-urls)
-- [Conferences](#conferences-urls)
 - [URLs in Year 2020](2020.md)
+- [URLs in Year 2021](2021.md)
 
 ---
 
@@ -56,16 +56,3 @@ A Curated list of sites and URLs on software and securities that I hope to learn
 * [Google Project Zero](https://googleprojectzero.blogspot.com/)
 * [Rapid7 blogs](https://blog.rapid7.com/tag/)
 * [mdsecresearch Publications](https://github.com/mdsecresearch/Publications)
-
----
-
-
-## Conferences URLs
-
-* [PPTs of HITBCyberWeek 2020 are released](https://cyberweek.ae/materials/2020/)
-* [DefCon](https://media.defcon.org/)
-* [USENIX Conferences](https://www.usenix.org/conferences/)
-    - [USENIX Security '20 Technical Sessions](https://www.usenix.org/conference/usenixsecurity20/technical-sessions)
-* [Hexacon](https://www.hexacorn.com/blog/)
-    - [Hacks In Taiwan](https://www.facebook.com/HITCON/) - Facebook page
-
